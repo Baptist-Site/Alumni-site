@@ -163,24 +163,24 @@ button:focus {
 .modal-header {
   background: var(--primary-color);
   color: #fff;
-  padding: 15px;
+  padding: 8px;
 }
 
 .modal-content {
-  padding: 20px;
+  padding: 15px;
 }
 
 .modal-form div {
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .modal-form label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .modal-form .form-input {
-  padding: 8px;
+  padding: 5px;
   width: 100%;
 }
 
@@ -287,6 +287,29 @@ body {
       height: 200px;
       padding: 20px;
   }
+  .modal-header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .modal-content {
+    padding: 8px;
+  }
+  
+  .modal-form div {
+    margin: 6px 0;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .modal-form .form-input {
+    padding: 3px;
+    width: 100%;
+  }
   
 }
 
@@ -296,6 +319,29 @@ body {
       height: 150px;
       
 
+  }
+  .modal-header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .modal-content {
+    padding: 8px;
+  }
+  
+  .modal-form div {
+    margin: 6px 0;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .modal-form .form-input {
+    padding: 3px;
+    width: 100%;
   }
   .card{
     padding: 20px;
@@ -324,6 +370,29 @@ body {
   .container{
     gap: 6px;
   }
+  .modal-header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .modal-content {
+    padding: 8px;
+  }
+  
+  .modal-form div {
+    margin: 6px 0;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .modal-form .form-input {
+    padding: 3px;
+    width: 100%;
+  }
   
 }
 
@@ -338,6 +407,29 @@ body {
   }
   .socials{
     flex-direction: column;
+  }
+  .modal-header {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px;
+  }
+  
+  .modal-content {
+    padding: 8px;
+  }
+  
+  .modal-form div {
+    margin: 6px 0;
+  }
+  
+  .modal-form label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .modal-form .form-input {
+    padding: 3px;
+    width: 100%;
   }
 
 }
