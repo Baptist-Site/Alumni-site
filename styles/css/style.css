@@ -210,6 +210,7 @@ button:focus {
   text-align: center;
  
 }
+
 .card img{
     width: 250px;
     height: 250px;
@@ -346,7 +347,9 @@ body {
   .card{
     padding: 20px;
     margin-right: 8px;
+   
   }
+  
   .container{
     width: 350px;
   }
@@ -433,3 +436,6 @@ body {
   }
 
 }
+/* Dashboard */
+
+

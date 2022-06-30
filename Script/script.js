@@ -54,3 +54,28 @@ e.target == loginmodal ? loginmodal.classList.remove('show-modal') : false
 var year = new Date().getFullYear();
 document.getElementById('date').setAttribute("min", year + "-01-01");
 document.getElementById('date').setAttribute("max", year + "-12-31");
+
+function closeNavbar(e) {
+  if (
+    document.body.classList.contains('show-nav') &&
+    e.target !== toggle &&
+    !toggle.contains(e.target) &&
+    e.target !== navbar &&
+    !navbar.contains(e.target)
+  ) {
+    document.body.classList.toggle('show-nav');
+    document.body.removeEventListener('click', closeNavbar);
+  } else if (!document.body.classList.contains('show-nav')) {
+    document.body.removeEventListener('click', closeNavbar);
+  }
+}
+
+//on resize, move search and top nav position according to window width
+var resizing = false;
+window.addEventListener('resize', function(){
+  if(resizing) return;
+  resizing = true;
+  (!window.requestAnimationFrame) ? setTimeout(moveNavigation, 300) : window.requestAnimationFrame(moveNavigation);
+});
+window.dispatchEvent(new Event('resize'));//trigger the moveNavigation function
+
