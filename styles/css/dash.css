@@ -180,7 +180,7 @@ body{
 		
   }
 
-  @media only screen and (max-width:410px) {
+ @media only screen and (max-width:410px) {
 	.top_navbar .logo {
 		font-size: 15px;
 	}
@@ -190,7 +190,15 @@ body{
 		
 		
 	}
+	.card-footer a{
+		font-size: 12px;
+	}
 	
+  }
+  
+  .container{
+	height: 100%;
+	padding-bottom: 20px;
   }
 
   @media only screen and (max-width:346px) {
@@ -198,8 +206,6 @@ body{
 		font-size: 10px;
 	}
   }
-
-
 
 
 
