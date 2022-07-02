@@ -184,6 +184,13 @@ body{
 	.top_navbar .logo {
 		font-size: 15px;
 	}
+	.card{
+		text-align: center;
+		height: 240px;
+		
+		
+	}
+	
   }
 
   @media only screen and (max-width:346px) {
