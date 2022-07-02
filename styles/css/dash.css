@@ -193,20 +193,17 @@ body{
 	.card-footer a{
 		font-size: 12px;
 	}
+	.container{
+		height: 100%;
+		padding-bottom: 20px;
+	  }
 	
   }
   
-  .container{
-	height: 100%;
-	padding-bottom: 20px;
-  }
+ 
 
   @media only screen and (max-width:346px) {
 	.top_navbar .logo {
 		font-size: 10px;
 	}
   }
-
-
-
- 
