@@ -127,6 +127,7 @@ body{
   .card{
 	background-color: var(--secondary-color) !important;
   }
+  
   .center_text{
 	text-align: center;
   }
@@ -151,15 +152,14 @@ body{
 			flex-direction: column;
 			align-items: center;
 			gap: 50px;
+			background-color:rgb(192, 192, 118); 
 			
 			
 		}
 		body{
 			height: 100%;
 		}
-		.container{
-			background-color:rgb(192, 192, 118); ;
-		}
+		
 		.card{
 			width: 50%;
 			gap: 100px;
@@ -184,7 +184,22 @@ body{
 	.top_navbar .logo {
 		font-size: 15px;
 	}
+	.card{
+		text-align: center;
+		
+		
+		
+	}
+	.card-footer a{
+		font-size: 12px;
+	}
+	.container{
+		gap: 2px;
+	  }
+	
   }
+  
+ 
 
   @media only screen and (max-width:346px) {
 	.top_navbar .logo {

@@ -208,13 +208,17 @@ button:focus {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   text-align: center;
- 
+  max-width: 360px;
+  height: 100%;
+  padding: 10px;
+
+  
 }
 
 .card img{
-    width: 250px;
-    height: 250px;
-    padding: 10px;
+    width: 100%;
+    align-self: center;
+   
    
   
 }
@@ -399,11 +403,13 @@ body {
   
 }
 
-@media only screen and (max-width: 534px){
+@media only screen and (max-width: 580px){
   .container {
       flex-direction: column;
       width: 100%;
       gap: 20px;
+      justify-content: center;
+      align-items: center;
   }
   .social_media{
     flex-direction: column;
