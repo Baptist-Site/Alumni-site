@@ -9,12 +9,26 @@
 * {
   box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
 
 body {
   font-family: 'Lato', sans-serif;
-  margin: 0;
   transition: transform 0.3s ease;
+  margin: 0;
+  /* display: grid; */
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  align-items: start;
+  min-height: 100vh;
 }
+
 
 body.show-nav {
   /* Width of nav */
@@ -206,6 +220,8 @@ button:focus {
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffff;
+  color: #30336b;
   transition: 0.3s;
   text-align: center;
   max-width: 360px;
@@ -218,6 +234,7 @@ button:focus {
 .card img{
     width: 100%;
     align-self: center;
+    height: 80%;
    
    
   
@@ -227,25 +244,10 @@ button:focus {
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 100%;
+  background-color: gray;
+  color: #fff;
 }
 
-body {
-  font-family: acumin-pro, system-ui, sans-serif;
-  margin: 0;
-  /* display: grid; */
-  grid-template-rows: auto 1fr auto;
-  font-size: 14px;
-  background-color: #f4f4f4;
-  align-items: start;
-  min-height: 100vh;
-}
 
 .footer {
   display: flex;
