@@ -6,13 +6,10 @@ const openlogin = document.getElementById('open-login');
 const signupmodal = document.getElementById('signup-modal');
 const loginmodal = document.getElementById('login-modal');
 const navbar = document.getElementById('navbar');
-const card = document.querySelector('.container');
 
 
-card.addEventListener('click' , () => {
-  alert('Coming Soon!!!')
 
- } )
+
 // This function closes navbar if user clicks anywhere outside of navbar once it's opened
 // Does not leave unused event listeners on
 // It's messy, but it works
