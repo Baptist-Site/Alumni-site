@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="/alumni-site/styles/css/bulma.css">
+    <link rel="icon" href="/alumni-site/img/WhatsApp Image 2022-06-22 at 9.09.06 PM.jpeg" type="image/icon type">
+    <link rel="stylesheet" href="/alumni-site/styles/css/style.css">
+
+
+</head>
+<style>
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+      
+      }
+      .about-container-logo img{
+        max-width: 300px;
+        height: 200px;
+        border-radius: 10%;
+        
+      }
+      
+      .about-container-logo-text{
+        max-width: 400px;
+      }
+      .about-container-logo-text h1{
+        font-weight: 900;
+        font-size: 3rem;
+      }
+</style>
+<body style="background-color: #ffff";>
+    <div class="about-container">
+        <div class="about-container-logo">
+            <img src="/alumni-site/img/WhatsApp Image 2022-06-22 at 9.09.06 PM.jpeg" alt="">
+        </div>
+        <div class="about-container-logo-text">
+            <h1>Payment</h1>
+        </div>
+    
+        
+        <div class="field">
+          <label class="label"></label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input is-success" type="text" placeholder="First name" value="">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+          <p class="help is-success"></p>
+        </div>
+        
+        <div class="field">
+          <label class="label"></label>
+          <div class="control has-icons-left has-icons-right">
+            <input required class="input is-success" type="email" placeholder="Last name" value="">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <p class="help is-danger"></p>
+        </div>
+
+        <div class="field">
+            <label class="label"></label>
+            <div class="control has-icons-left has-icons-right">
+              <input required class="input is-success" type="email" placeholder="@email.com" value="">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+            <p class="help is-danger"></p>
+          </div>
+          <div class="buttons">
+            <button type="submit" class="button is-link">Pay</button>
+          </div>
+      </div>
+</body>
+</html>
