@@ -144,6 +144,7 @@ body{
   }
   .card-footer{
 	background-color: var(--primary-color) !important;
+	color: #ffff;
   }
   .center_text{
 	text-align: center;
@@ -155,6 +156,9 @@ body{
   }
   .black{
 	color: black;
+  }
+  .white{
+	color: #fff;
   }
   .dash-img{
 	max-width: 400px;
